@@ -1,3 +1,5 @@
+// this plugin works just with pages with the same structure as ics-slider.html
+
 $("#down").click(function(){             
               total_previous = 0;
               // count the number of previous elements that we have in the previous box 

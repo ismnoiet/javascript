@@ -1,10 +1,10 @@
 // this plugin works just with pages with the same structure as ics-slider.html
 
 var begin = 1;
-	var end  = 5;
-	var total = 0;
-	$('#current .item').each(function(){total++;});
-	// this plugin works just with pages with the same structure as ics-slider.html
+var end  = 5;
+var total = 0;
+$('#current .item').each(function(){total++;});
+
 	 
 	for(i=end+1;i<total;i++){
          $("#"+i).appendTo("#next");

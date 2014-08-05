@@ -9,57 +9,28 @@
 
 </head>
 <body>
+
+// up button to go up by one element if it exists
+<button id="up"> up button</button>
 // create a simple div with id="previous" so we can target it later 
-<div id="previous"></div>	
+<div id="previous"></div>
+// current box that contains the visible elements
+<div id="current">
+		<div class="item" id="first" title="1">item number 1 content goes here</div>
+		<div class="item" id="2">item number 2 content goes here </div>
+		<div class="item" id="3">item number 3 content goes here</div>
+		<div class="item" id="4">item number 4 content goes here</div>
+		<div class="item" id="5">item number 5 content goes here</div>
+		<div class="item" id="6">item number 6 content goes here</div>
+		<div class="item" id="7">item number 7 content goes here</div>
+		<div class="item" id="8">item number 9 content goes here</div>
+		<div class="item" id="9">item number 10 content goes here</div>	
+</div>
+// next box is hidden by default it contains the next elements that gonna be added to the end of the current box
+<div id="next"></div>
+// do the same job as the up button but going down instead 
+<button id="down">down button</button>
 
-		<div class="col-md-4 result-items">
-		      <!-- begin up arrow	  -->
-		      <div class="row up" id="up">
-		     	<div class="col-md-5"></div>
-		     	<div class="col-md-2"><i class="fa fa-angle-up"></i></div>
-		     	<div class="col-md-5"></div>
-		      </div>
-		      <!-- end up arrow	 -->
+</body>
+</html>
 
-              <!--begin current box-->
-	        <div id="current">
-			    <div class="row item" id="first" title="1">
-					<div class="col-md-2" style=""><img src="http://placehold.it/30x30" alt=""></div>
-					<div class="col-md-9">here the company name 1</div>
-				</div>
-				<div class="row item" id="2">
-					<div class="col-md-2"><img src="http://placehold.it/30x30" alt="" ></div>
-					<div class="col-md-9">here the company name 2</div>
-				</div>
-				<div class="row item" id="3">
-					<div class="col-md-2"><img src="http://placehold.it/30x30" alt="" ></div>
-					<div class="col-md-9">here the company name 3</div>
-				</div>
-				<div class="row item" id="4">
-					<div class="col-md-2"><img src="http://placehold.it/30x30" alt="" ></div>
-					<div class="col-md-9">here the company name 4</div>
-				</div>
-				<div class="row item" id="5">
-					<div class="col-md-2"><img src="http://placehold.it/30x30" alt="" ></div>
-					<div class="col-md-9">here the company name 5</div>
-				</div>
-				<div class="row item" id="6">
-					<div class="col-md-2"><img src="http://placehold.it/30x30" alt="" ></div>
-					<div class="col-md-9">here the company name 6</div>
-				</div>
-				<div class="row item" id="7">
-					<div class="col-md-2"><img src="http://placehold.it/30x30" alt="" ></div>
-					<div class="col-md-9">here the company name 7</div>
-				</div>			
-			</div>
-			<!-- end current -->	
-			<!-- down arrow --> 
-			<div class="row up" id="down">
-			     	<div class="col-md-5"></div>
-			     	<div class="col-md-2"><i class="fa fa-angle-down"></i></div>
-			        <div class="col-md-5"></div>
-			</div>
-			  <!--end down arrow -->
-		</div>
-		<div id="next"></div>
-	
